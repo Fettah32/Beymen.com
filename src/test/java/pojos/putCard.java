@@ -1,0 +1,27 @@
+package pojos;
+
+public class putCard {
+    private String id;
+
+    public putCard() {
+    }
+
+    public putCard(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "putCard{" +
+                "id='" + id + '\'' +
+                '}';
+    }
+}
